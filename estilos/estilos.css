@@ -1,0 +1,76 @@
+/* imgaen del fondo */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../imagenes/descargaa.gif");
+    background-size: cover;
+  }
+/* el cambio de letra de mi pag web*/
+body {
+    background-color: #f4f9fc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: #d8c5c5;
+}
+/* cambio de colores  de mi estructura */
+/* titulo */
+h1 {
+    font-size: 40px;
+    color: #82aaeb;
+    text-shadow: 2px 2px 4px #fffefe;
+}
+/*subtitulo */
+h2 {
+    color: #e4e5e6;
+}
+
+h3 {
+    color: #cfedfa;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* los botones de cada sitio web */
+button {
+    background-color: #b4def1;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    padding: 14px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 280px;
+    transition: 0.3s;
+}
+
+/* el movimiento al crusar el raton con los botones( un poko de chat pero le pedi que me explicara)*/
+button:hover {
+    background-color: #90a7e7;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Cuando haces clic */
+button:active {
+    transform: scale(0.95);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: white;
+    margin: 25px 0;
+}
+.pregunta {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}

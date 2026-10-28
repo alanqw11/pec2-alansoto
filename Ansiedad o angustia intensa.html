@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="estilos/estilos2.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #bfc4c5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #050706;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*color del menu */
+.navbar a:hover {
+  background: #d3d3d3;
+  color: rgb(197, 199, 199);
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="index.html">Inicio</a>
+</div>
+
+<div class="main">
+
+  <div class="cuestionario">
+
+  <h1>🌱Ansiedad🌱</h1> 
+  <p>Responde las siguientes preguntas sobre la Ansiedad.</p>
+  <body>
+    <h2>La ansiedad puede hacer que todo parezca más difícil, pero recuerda: no tienes que resolverlo todo de una vez. Respira, date tiempo y avanza paso a paso. Pedir ayuda también es una forma de ser fuerte</h2> 
+    <h1>Cuestionario sobre la ansiedad</h1>
+
+<p>Responde las siguientes preguntas según cómo te has sentido últimamente.</p>
+
+<!--<input type="radio" name="pregunta1"> sirve para crear tus respuestas o opciones-->
+
+<p>1. ¿Te has sentido muy ansioso/a o angustiado/a últimamente?</p>
+<input type="radio" name="pregunta1"> Sí
+<input type="radio" name="pregunta1"> No
+<input type="radio" name="pregunta1"> A veces
+
+<p>2. ¿Con qué frecuencia sientes preocupación o nerviosismo intenso?</p>
+<input type="radio" name="pregunta2"> Nunca
+<input type="radio" name="pregunta2"> Algunas veces
+<input type="radio" name="pregunta2"> Frecuentemente
+<input type="radio" name="pregunta2"> Casi siempre
+
+<p>3. ¿Sientes que te cuesta controlar tus preocupaciones?</p>
+<input type="radio" name="pregunta3"> Sí, mucho
+<input type="radio" name="pregunta3"> Un poco
+<input type="radio" name="pregunta3"> No
+
+<p>4. ¿La ansiedad afecta tus actividades diarias?</p>
+<input type="radio" name="pregunta4"> Sí, bastante
+<input type="radio" name="pregunta4"> Un poco
+<input type="radio" name="pregunta4"> No
+
+<p>5. ¿Has sentido tensión o inquietud sin saber exactamente por qué?</p>
+<input type="radio" name="pregunta5"> Sí
+<input type="radio" name="pregunta5"> No
+<input type="radio" name="pregunta5"> A veces
+
+<p>6. ¿Cuando estás ansioso/a, sientes síntomas físicos como aceleración del corazón, sudoración o temblores?</p>
+<input type="radio" name="pregunta6"> Sí
+<input type="radio" name="pregunta6"> No
+<input type="radio" name="pregunta6"> A veces
+
+<p>7. ¿Te cuesta concentrarte cuando estás preocupado/a?</p>
+<input type="radio" name="pregunta7"> Mucho
+<input type="radio" name="pregunta7"> Un poco
+<input type="radio" name="pregunta7"> No
+
+<p>8. ¿La ansiedad afecta tu sueño?</p>
+<input type="radio" name="pregunta8"> Sí, bastante
+<input type="radio" name="pregunta8"> Un poco
+<input type="radio" name="pregunta8"> No
+
+<p>9. ¿Sueles imaginar que algo malo podría ocurrir?</p>
+<input type="radio" name="pregunta9"> Frecuentemente
+<input type="radio" name="pregunta9"> Algunas veces
+<input type="radio" name="pregunta9"> Casi nunca
+<input type="radio" name="pregunta9"> Nunca
+
+<p>10. ¿Sientes que necesitas alejarte de ciertas situaciones para evitar sentir ansiedad?</p>
+<input type="radio" name="pregunta10"> Sí
+<input type="radio" name="pregunta10"> No
+<input type="radio" name="pregunta10"> A veces
+
+<p>11. ¿Qué situaciones suelen provocar que te sientas ansioso/a o angustiado/a?</p>
+<textarea name="pregunta11" rows="3" cols="40" placeholder="Escribe aquí tu respuesta..."></textarea>
+
+<p>12. ¿Cómo se siente tu cuerpo cuando experimentas mucha ansiedad?</p>
+<textarea name="pregunta12" rows="3" cols="40" placeholder="Describe lo que sientes..."></textarea>
+
+<p>13. ¿Qué haces normalmente para intentar calmarte cuando sientes ansiedad?</p>
+<textarea name="pregunta13" rows="3" cols="40" placeholder="Escribe aquí tu respuesta..."></textarea>
+
+<p>14. ¿La ansiedad ha afectado tus relaciones, estudios, trabajo o actividades diarias?</p>
+<input type="radio" name="pregunta14"> Sí, bastante
+<input type="radio" name="pregunta14"> Un poco
+<input type="radio" name="pregunta14"> No
+<input type="radio" name="pregunta14"> No estoy seguro/a
+
+<p>15. ¿Hay algo que quieras contar sobre cómo has experimentado la ansiedad o angustia últimamente?</p>
+<textarea name="pregunta15" rows="4" cols="40" placeholder="Puedes escribir lo que quieras compartir..."></textarea>
+<br><br>
+<br><br>
+<form action="gracias.html">
+    <button type="submit">Enviar respuestas</button>
+</form>
+</div>
+</div>
+
+</body>

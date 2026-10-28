@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="estilos/estyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #fff8f8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #dadddb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*color del menu */
+.navbar a:hover {
+  background: #a79b9b;
+  color: rgb(104, 101, 101);
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="index.html">Inicio</a>
+</div>
+
+<div class="main">
+
+  <div class="cuestionario">
+
+  <h1>🌕Soledad🌕</h1> 
+  <p>Responde las siguientes preguntas sobre la soledad.</p>
+  <body>
+    <h2>Conoce cómo se manifiesta la soledad y cómo influye en nuestras emociones, relaciones y bienestar.</h2> 
+    <h1>Cuestionario sobre la soledad</h1>
+
+<p>Responde las siguientes preguntas según cómo te has sentido últimamente.</p>
+
+<!--<input type="radio" name="pregunta1"> sirve para crear tus respuestas o opciones-->
+
+<p>1. ¿Te has sentido solo/a últimamente?</p>
+<input type="radio" name="pregunta1"> Sí
+<input type="radio" name="pregunta1"> No
+<input type="radio" name="pregunta1"> A veces
+
+<p>2. ¿Con qué frecuencia te sientes solo/a?</p>
+<input type="radio" name="pregunta2"> Nunca
+<input type="radio" name="pregunta2"> Algunas veces
+<input type="radio" name="pregunta2"> Frecuentemente
+<input type="radio" name="pregunta2"> Casi siempre
+
+<p>3. ¿Sientes que tienes personas con quienes puedes hablar cuando lo necesitas?</p>
+<input type="radio" name="pregunta3"> Sí
+<input type="radio" name="pregunta3"> No
+<input type="radio" name="pregunta3"> A veces
+
+<p>4. ¿Te has sentido solo/a incluso cuando estás rodeado/a de personas?</p>
+<input type="radio" name="pregunta4"> Sí
+<input type="radio" name="pregunta4"> No
+<input type="radio" name="pregunta4"> Algunas veces
+
+<p>5. ¿Sientes que las personas que te rodean te comprenden?</p>
+<input type="radio" name="pregunta5"> Sí
+<input type="radio" name="pregunta5"> No
+<input type="radio" name="pregunta5"> A veces
+
+<p>6. ¿Te cuesta acercarte a otras personas para hacer nuevas amistades?</p>
+<input type="radio" name="pregunta6"> Mucho
+<input type="radio" name="pregunta6"> Un poco
+<input type="radio" name="pregunta6"> No me cuesta
+
+<p>7. ¿Sientes que tienes alguien en quien puedes confiar?</p>
+<input type="radio" name="pregunta7"> Sí
+<input type="radio" name="pregunta7"> No
+<input type="radio" name="pregunta7"> No estoy seguro/a
+
+<p>8. ¿La soledad afecta tu estado de ánimo?</p>
+<input type="radio" name="pregunta8"> Sí, bastante
+<input type="radio" name="pregunta8"> Un poco
+<input type="radio" name="pregunta8"> No
+
+<p>9. ¿Prefieres estar solo/a cuando estás pasando por un momento difícil?</p>
+<input type="radio" name="pregunta9"> Sí
+<input type="radio" name="pregunta9"> No
+<input type="radio" name="pregunta9"> Depende del momento
+
+<p>10. ¿Sientes que puedes pedir ayuda cuando te sientes solo/a?</p>
+<input type="radio" name="pregunta10"> Sí
+<input type="radio" name="pregunta10"> No
+<input type="radio" name="pregunta10"> A veces
+
+<p>11. ¿Qué situaciones hacen que te sientas más solo/a?</p>
+<textarea name="pregunta11" rows="3" cols="40" placeholder="Escribe aquí tu respuesta..."></textarea>
+
+<p>12. ¿Cómo te hace sentir pasar mucho tiempo sin compañía?</p>
+<textarea name="pregunta12" rows="3" cols="40" placeholder="Escribe aquí cómo te sientes..."></textarea>
+
+<p>13. ¿Qué actividades te ayudan a sentirte acompañado/a o conectado/a con otras personas?</p>
+<textarea name="pregunta13" rows="3" cols="40" placeholder="Escribe tu respuesta..."></textarea>
+
+<p>14. ¿La soledad ha cambiado la manera en que te relacionas con otras personas?</p>
+<input type="radio" name="pregunta14"> Sí, bastante
+<input type="radio" name="pregunta14"> Un poco
+<input type="radio" name="pregunta14"> No
+<input type="radio" name="pregunta14"> No estoy seguro/a
+<!--<textarea name="pregunta15" sirve para que podamos expresar mas afondo lo que sentimos con esta pregunta y las varias que son.-->
+<p>15. ¿Hay algo que quieras contar sobre cómo has vivido la soledad últimamente?</p>
+<textarea name="pregunta15" rows="4" cols="40" placeholder="Puedes escribir lo que quieras compartir..."></textarea>
+
+<br><br>
+
+<form action="gracias.html">
+    <button type="submit">Enviar respuestas</button>
+</form>
+</div>
+</div>
+
+</body>

@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+ background-image: url("../imagenes/deskarga\ 67.gif");
+  background-size: cover;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #c0bfbf;
+  }
+  
+  /* barra de navegacion */
+  .navbar {
+    overflow: hidden;
+    background-color: #0a0a0a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #d3e8ed;
+    color: #f5fdff;
+  }
+  
+  /* lo principal */
+  .main {
+    max-width: 800px;
+    margin: 80px auto 40px auto;
+    padding: 30px;
+  }
+  
+  /* el titulo */
+  .main h1 {
+    text-align: center;
+    color: #e4e7e7;
+    font-size: 35px;
+  }
+  
+  /* el Subtítulo */
+  .main h2 {
+    text-align: center;
+    color: #c2bebe;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+  
+  /* texto */
+  .main > p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* las preguntas */
+  .main p:not(:first-of-type) {
+    font-size: 18px;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+  
+  /* todas las opciones */
+  input[type="radio"] {
+    margin: 10px 5px 10px 15px;
+    accent-color: #c6cdcf;
+  }
+  
+  /* los Botón */
+  button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    background-color: #4f6e75;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  /* Efecto al pasar el mouse( ayuda de chatgipiti) */
+  button:hover {
+    background-color: #3e3f3f;
+  }
+  /* lo que hace que mi cuestionario tenga doble fondo */
+  .cuestionario {
+    background-color: rgba(19, 18, 18, 0.85);
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
